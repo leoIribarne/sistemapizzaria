@@ -1,0 +1,216 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
+		integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+	<link rel="stylesheet" type="text/css" href="css/Usuários.css">
+	<link rel="icon" type="image/x-icon" href="icon-pizza.ico">
+	<title>Usuários</title>
+</head>
+
+<body>
+	<!-- nav bar  -->
+	<div class="container-fluid text-center  barra">
+		<div class="row justify-content-between">
+			<div class="col-3">
+				<h2 class="nav">Ola! Leonardo</span>
+			</div>
+			<div class="col-4 ">
+				<h2 class="nav">GERENCIAR-USUÁRIOS</span>
+			</div>
+			<div class="col-3  ms-4">
+				<a   href="index.html"  class="btn btn-secondary " href="index.html" role="button">Sair</a>
+			</div>
+		</div>
+	</div>
+	<br>
+
+	<!-- texto centrais e linhas -->
+
+	<div class="container-fluid">
+		<div class="row">
+			<div class="col-4">
+				<div class="col-4 text-center">
+					<label>Configuração</label>
+					<hr>
+					<br>
+				</div>
+
+				<div class="row-align-items-center ">
+					<div class="col-4">
+						<div class="d-grid gap-2">
+							<a href="categoria.html" class="btn btn-outline-secondary">Categorias</a>
+						</div>
+						<br>
+					</div>
+				</div>
+
+
+				<div class="row-align-items-center ">
+					<div class="col-4">
+						<div class="d-grid gap-2">
+							<a href="Produtos.html" class="btn btn-outline-secondary ">Produtos</a>
+						</div>
+						<br>
+					</div>
+				</div>
+
+
+				<div class="row-align-items-center">
+					<div class="col-4">
+						<div class="d-grid gap-2">
+							<a href="Usuários.html" class="btn btn-outline-secondary active">Usuarios</a>
+						</div>
+						<br>
+					</div>
+				</div>
+
+
+				<div class="row-align-items-center">
+					<div class="col-4">
+						<div class="d-grid gap-2">
+							<a href="Relatórios.html" class="btn btn-outline-secondary">Relatorios</a>
+						</div>
+						<br>
+					</div>
+				</div>
+			</div>
+
+
+
+
+
+			<div class="col-8">
+				<form>
+					<div class="row ">
+						<label>Novo Usuário</label>
+					<hr>
+						<div class="col-6">
+							<label class="col-form-label" for="nm_usuario">Nome do Usuário :</label>
+							<input type="text" name="nm_usuario" class="form-control">
+						</div>
+						<div class="col-3">
+							<label class="col-form-label" for="ds_tipo">Tipo :</label>
+							<select name="tipo" class="form-select">
+								<option>Administrador</option>
+								<option>Atendente</option>
+								<option>Cozinha</option>
+							</select>
+						</div>
+
+						<div class="row  g-3 align-items-center">
+							<div class="col-4">
+								<label class="col-form-label" for="nm_login">Login :</label>
+								<input type="text" name="nm_login" class="form-control">
+							</div>
+							<div class="col-4">
+								<label class="col-form-label" for="nm_senha">Senha:</label>
+								<input type="password" name="nm_senha" class="form-control">
+							</div>
+							<div class="col-4">
+								<button class="btn btn-secondary mt-4">Cadastrar</button>
+							</div>
+				</form>
+				<!-- linha para poder separar as row  -->
+
+				<div style="height: 60px;"></div>
+
+				<div class="row-6">
+					<div style="font-size: 30px; color: #FFFFFF;">Registros</div>
+				</div>
+
+				<!-- parte inferior do sistema  -->
+				<div class="col">
+
+					<div class="row">
+						<div class="col-1">
+							<label>Cod</label>
+						</div>
+						<div class="col-2">
+							<label>Nome</label>
+						</div>
+						<div class="col-2">
+							<label>Login</label>
+						</div>
+						<div class="col-2">
+							<label></label>
+						</div>
+						<div class="col-2">
+							<label >Tipo</label>
+						</div>
+						<div class="col">
+							<label>#controles</label>
+						</div>
+						<hr>
+					</div>
+
+					<div class="row">
+						<hr>
+						<div class="col-1">
+							<label>1</label>
+						</div>
+						<div class="col-2 align-items-start">
+							<label>Rodolfo Araújo</label>
+						</div>
+						<div class="col-4 align-items-start">
+							<label>admin</label>
+						</div>
+						<div class="col-2 align-items-start">
+							<label>Administrador</label>
+						</div>
+						<div class="col">
+							<button class="btn btn-secondary btn-sm">Atualizar</button>
+							<button class="btn btn-secondary btn-sm">Excluir</button>
+						</div>
+					</div>
+
+					<div class="row">
+						<hr>
+						<div class="col-1">
+							<label>2</label>
+						</div>
+						<div class="col-2 align-items-start">
+							<label>Larissa Rosa</label>
+						</div>
+						<div class="col-4 align-items-start">
+							<label>lariossa</label>
+						</div>
+						<div class="col-2 align-items-start">
+							<label>Atendente</label>
+						</div>
+						<div class="col">
+							<button class="btn btn-secondary btn-sm">Atualizar</button>
+							<button class="btn btn-secondary btn-sm">Excluir</button>
+						</div>
+					</div>
+
+					<div class="row">
+						<hr>
+						<div class="col-1">
+							<label>3</label>
+						</div>
+						<div class="col-2 align-items-start">
+							<label>Júlio Silva</label>
+						</div>
+						<div class="col-4 align-items-start">
+							<label>julinho</label>
+						</div>
+						<div class="col-2 align-items-start">
+							<label>Cozinha</label>
+						</div>
+						<div class="col">
+							<button class="btn btn-secondary btn-sm">Atualizar</button>
+							<button class="btn btn-secondary btn-sm">Excluir</button>
+						</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+</body>
+
+</html>
